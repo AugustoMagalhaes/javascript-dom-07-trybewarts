@@ -23,3 +23,12 @@ main {
   display: flex;
   flex-flow: row nowrap;
 }
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex
+}
+
+#form-login {
+  display: flex;
+}

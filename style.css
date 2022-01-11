@@ -13,3 +13,12 @@ main {
   width: 675px;
   flex-direction: column;
 }
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex
+}
+
+#form-login {
+  display: flex;
+}

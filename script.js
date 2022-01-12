@@ -1,6 +1,6 @@
 function clickJoinButtonEvent() {
-  const emailInput = document.querySelector('#input-email');
-  const passwordInput = document.querySelector('#input-password');
+  const emailInput = document.querySelector('#user-email');
+  const passwordInput = document.querySelector('#user-password');
   if (
     !(emailInput.value === 'tryber@teste.com' && passwordInput.value === '123456')
   ) {

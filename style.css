@@ -42,3 +42,8 @@ main {
   flex-flow: column wrap;
 }
 
+.comment-area {
+  display: flex;
+  flex-flow: column nowrap;
+}
+

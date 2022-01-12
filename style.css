@@ -5,6 +5,15 @@
 }
 
 main {
+  display: flex;  
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex
+}
+
+#form-login {
   display: flex;
 }
 
@@ -19,16 +28,14 @@ main {
   height: 500px;
 }
 
-#inputs-container {
+.inputs-container {
   display: flex;
   flex-flow: row nowrap;
+    
 }
 
-.header {
-  background-color: rgb(50, 167, 145);
-  display: flex
-}
-
-#form-login {
+.radio-head {
   display: flex;
+  flex-flow: column nowrap;
 }
+

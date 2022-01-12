@@ -5,12 +5,12 @@
 }
 
 main {
-  display: flex;  
+  display: flex;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
-  display: flex
+  display: flex;
 }
 
 #form-login {
@@ -20,8 +20,7 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 #trybewarts-forms-logo {
@@ -31,7 +30,6 @@ main {
 .inputs-container {
   display: flex;
   flex-flow: row nowrap;
-    
 }
 
 .radio-head {

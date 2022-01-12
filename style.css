@@ -37,3 +37,8 @@ main {
   flex-flow: column nowrap;
 }
 
+.content-box {
+  display: flex;
+  flex-flow: column wrap;
+}
+

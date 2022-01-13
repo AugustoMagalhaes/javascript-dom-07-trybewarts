@@ -14,11 +14,25 @@ function textAreaEvent() {
   count.innerHTML = 500 - textArea.value.length;
 }
 
+function sendForm() {
+  const checkbox = document.getElementById('agreement');
+  const submitBtn = document.getElementById('submit-btn');
+  if (checkbox.checked === true) {
+    submitBtn.disabled = false;
+  }
+  /* if (checkbox.checked === false) {
+    alert('nao enviou');
+    event.preventDefault();
+  } else { alert('enviou'); } */
+}
+
 function loadPage() {
   const joinButton = document.querySelector('#button-join');
   joinButton.addEventListener('click', clickJoinButtonEvent);
   const textArea = document.querySelector('#textarea');
   textArea.addEventListener('input', textAreaEvent);
+  const checkbox = document.getElementById('agreement');
+  checkbox.addEventListener('click', sendForm);
 }
 
 window.onload = loadPage;

@@ -57,7 +57,7 @@ main {
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-content: flex-end;
-  position: relative;  
+  position: relative;
   bottom: 16px;
   right: 4px;
   font-size: 12px;

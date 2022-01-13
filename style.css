@@ -47,3 +47,20 @@ main {
   flex-flow: column nowrap;
 }
 
+#textarea {
+  resize: none;
+}
+
+
+#counter {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  position: relative;
+  /* top: -20px; */
+  bottom: 16px;
+  right: 4px;
+  font-size: 12px;
+}
+

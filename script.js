@@ -9,8 +9,8 @@ function clickJoinButtonEvent() {
 }
 
 function textAreaEvent() {
-  const textArea = document.querySelector("#textarea");
-  const count = document.querySelector("#counter");
+  const textArea = document.querySelector('#textarea');
+  const count = document.querySelector('#counter');
   count.innerHTML = 500 - textArea.value.length;
 }
 
@@ -18,7 +18,7 @@ function loadPage() {
   const joinButton = document.querySelector('#button-join');
   joinButton.addEventListener('click', clickJoinButtonEvent);
   const textArea = document.querySelector('#textarea');
-  textArea.addEventListener('input', textAreaEvent)
+  textArea.addEventListener('input', textAreaEvent);
 }
 
 window.onload = loadPage;

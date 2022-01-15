@@ -29,8 +29,8 @@
             </div>
             <div class="inputs-container">
                 <input type="email" name="input-email" id="input-email" placeholder="Email">
-                <label for="house" id="house">Casa:
-                    <select name="casa" id="house">
+                <label for="house" id="label-house">Casa:
+                    <select name="house" id="house">
                         <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
                         <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
                         <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -45,14 +45,13 @@
                 <input type="radio" name="family" value="FullStack">FullStack
             </div>
             <div class="content-box">
-                <label for="content-box" id="label-content">Qual conteúdo você está com mais vontade de
-                    aprender?</label>
-                <input type="checkbox" name="content-box" value="HoFs">HoFs
-                <input type="checkbox" name="content-box" value="Jest">Jest
-                <input type="checkbox" name="content-box" value="Promises">Promises
-                <input type="checkbox" name="content-box" value="React">React
-                <input type="checkbox" name="content-box" value="SQL">SQL
-                <input type="checkbox" name="content-box" value="Python">Python
+                <label for="content-box" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                <input class="subject" type="checkbox" name="content-box" value="HoFs">HoFs
+                <input class="subject" type="checkbox" name="content-box" value="Jest">Jest
+                <input class="subject" type="checkbox" name="content-box" value="Promises">Promises
+                <input class="subject" type="checkbox" name="content-box" value="React">React
+                <input class="subject" type="checkbox" name="content-box" value="SQL">SQL
+                <input class="subject" type="checkbox" name="content-box" value="Python">Python
             </div>
             <div class="satisfaction-rating">
                 <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
@@ -82,8 +81,7 @@
         <div id="img-container">
             <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">            
         </div>
-
-
+        
     </main>
     <footer>
         <h4>Direitos reservados à Trybewarts©</h4>

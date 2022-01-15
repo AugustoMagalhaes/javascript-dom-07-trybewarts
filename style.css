@@ -2,19 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 main {
   display: flex;
+  background-color: #f0f3f5;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 15px;  
+}
+
+.header h1 {
+  padding-bottom: 8px;
+  color: #fcfeff;  
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  height: 50px;
 }
 
 #form-login {
   display: flex;
+  flex-flow: row wrap;
+  width: 440px;
+  height: 35px;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+#form-login input {
+  padding: 2px;
+  border: 1px solid #fcfeff;  
+  border-radius: 8px;
+}
+
+#form-login button {
+  padding: 2px;
+  width: 70px;
+  border: 1px solid #951499;
+  color: #fcfeff;
+  background-color: #951499;
+  border-radius: 8px;
 }
 
 #evaluation-form {

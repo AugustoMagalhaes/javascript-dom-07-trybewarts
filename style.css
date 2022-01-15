@@ -7,7 +7,7 @@
 
 main {
   display: flex;
-  background-color: #f0f3f5;
+  background-color:#ebeef0;
 }
 
 .header {
@@ -56,18 +56,50 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-flow: column wrap;
+  flex-flow: column wrap;  
   align-content: center;
-  justify-content: space-around;
+  align-items: space-between;  
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
+#evaluation-form h3 {
+  align-self: center;
+  margin: 8px 0;
+}
+
 .inputs-container {
   display: flex;
   flex-flow: row nowrap;
+  width: 500px;
+  height: 35px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: baseline;  
+}
+
+.inputs-container input {
+  width: 245px;
+  height: 30px;
+  padding: 2px;
+  background-color: #fcfeff;
+  border: 1px solid #f0f3f5;
+  border-radius: 8px;  
+}
+
+.inputs-container select {
+  width: 200px;
+  height: 30px;
+  padding: 2px;
+  background-color: #fcfeff;
+  border: 1px solid #fcfeff;
+  border-radius: 8px;
+}
+
+hr {
+  margin: 8px 10px;
 }
 
 .radio-head {

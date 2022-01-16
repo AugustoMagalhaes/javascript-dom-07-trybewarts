@@ -102,14 +102,35 @@ hr {
   margin: 8px 10px;
 }
 
+.radio-check {  
+  display: flex;
+  flex-flow: row wrap;
+  width: 500px;
+  min-height: 100px;
+  justify-content: space-between;  
+}
+
 .radio-head {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;  
+  width: 50%;  
 }
 
 .content-box {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: baseline;  
+  width: 50%;  
+}
+
+.radio-head label, .content-box label {
+  margin: 5px 6px 5px 0px;
+}
+
+.radio-head label input, .content-box label input {
+  margin-right: 3px;  
 }
 
 .comment-area {
@@ -120,7 +141,6 @@ hr {
 #textarea {
   resize: none;
 }
-
 
 #counter {
   display: flex;

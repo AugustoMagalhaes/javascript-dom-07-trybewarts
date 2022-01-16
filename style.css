@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 main {
   display: flex;
-  background-color:#ebeef0;
+  background-color: rgb(235, 238, 240);
 }
 
 .header {
@@ -21,7 +21,7 @@ main {
 
 .header h1 {
   padding-bottom: 8px;
-  color: #fcfeff;  
+  color: rgb(252, 254, 255);  
 }
 
 .trybewarts-header-logo {
@@ -40,16 +40,16 @@ main {
 
 #form-login input {
   padding: 2px;
-  border: 1px solid #fcfeff;  
+  border: 1px solid rgb(252, 254, 255);  
   border-radius: 8px;
 }
 
 #form-login button {
   padding: 2px;
   width: 70px;
-  border: 1px solid #951499;
-  color: #fcfeff;
-  background-color: #951499;
+  border: 1px solid rgb(149, 20, 153);
+  color: rgb(252, 254, 255);
+  background-color: rgb(149, 20, 153);
   border-radius: 8px;
 }
 
@@ -84,8 +84,8 @@ main {
   width: 245px;
   height: 30px;
   padding: 2px;
-  background-color: #fcfeff;
-  border: 1px solid #f0f3f5;
+  background-color: rgb(252, 254, 255);
+  border: 2px solid rgb(240, 243, 245);
   border-radius: 8px;  
 }
 
@@ -93,8 +93,8 @@ main {
   width: 200px;
   height: 30px;
   padding: 2px;
-  background-color: #fcfeff;
-  border: 1px solid #fcfeff;
+  background-color: rgb(252, 254, 255);
+  border: 1px solid rgb(240, 243, 245);
   border-radius: 8px;
 }
 

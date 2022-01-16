@@ -2,26 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main {
-  display: flex;  
-  background-color: rgb(235, 238, 240);  
+  display: flex;
+  background-color: rgb(235, 238, 240);
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: center;
-  padding: 15px;  
+  padding: 15px;
 }
 
 .header h1 {
   padding-bottom: 8px;
-  color: rgb(252, 254, 255);  
+  color: rgb(252, 254, 255);
 }
 
 .trybewarts-header-logo {
@@ -40,7 +40,7 @@ main {
 
 #form-login input {
   padding: 2px;
-  border: 1px solid rgb(252, 254, 255);  
+  border: 1px solid rgb(252, 254, 255);
   border-radius: 8px;
 }
 
@@ -56,9 +56,9 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
   align-content: center;
-  align-items: space-between;  
+  align-items: space-between;
 }
 
 #img-container {
@@ -86,7 +86,7 @@ main {
   height: 35px;
   justify-content: space-between;
   align-content: center;
-  align-items: baseline;  
+  align-items: baseline;
 }
 
 .inputs-container input {
@@ -95,7 +95,7 @@ main {
   padding: 2px;
   background-color: rgb(252, 254, 255);
   border: 2px solid rgb(240, 243, 245);
-  border-radius: 8px;  
+  border-radius: 8px;
 }
 
 .inputs-container select {
@@ -111,18 +111,18 @@ hr {
   margin: 8px 10px;
 }
 
-.radio-check {  
+.radio-check {
   display: flex;
   flex-flow: row wrap;
   width: 500px;
   min-height: 100px;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .radio-head {
   display: flex;
-  flex-flow: column wrap;  
-  width: 50%;  
+  flex-flow: column wrap;
+  width: 50%;
 }
 
 .content-box {
@@ -130,8 +130,8 @@ hr {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: space-around;
-  align-items: baseline;  
-  width: 50%;  
+  align-items: baseline;
+  width: 50%;
 }
 
 .radio-head label, .content-box label {
@@ -139,7 +139,7 @@ hr {
 }
 
 .radio-head label input, .content-box label input {
-  margin-right: 3px;  
+  margin-right: 3px;
 }
 
 .satisfaction-rating {
@@ -155,7 +155,7 @@ hr {
   margin-left: 10px;
   padding-top: 3px;
   justify-content: space-between;
-  align-content: flex-start;     
+  align-content: flex-start;
   font-size: 12px;
 }
 
@@ -178,14 +178,3 @@ hr {
   right: 4px;
   font-size: 12px;
 }
-
-/*footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: stretch;
-  align-items: stretch;
-  background-color: rgb(40, 55, 50);
-  color: rgb(252, 254, 255);
-  min-height: 22px;  
-}*/

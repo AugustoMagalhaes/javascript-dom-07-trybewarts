@@ -6,7 +6,7 @@
 }
 
 main {
-  display: flex;
+  display: flex;  
   background-color: rgb(235, 238, 240);
 }
 
@@ -131,6 +131,23 @@ hr {
 
 .radio-head label input, .content-box label input {
   margin-right: 3px;  
+}
+
+.satisfaction-rating {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 2px;
+}
+
+.satisfaction-radio {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  margin-left: 10px;
+  padding-top: 3px;
+  justify-content: space-between;
+  align-content: flex-start;     
+  font-size: 12px;
 }
 
 .comment-area {

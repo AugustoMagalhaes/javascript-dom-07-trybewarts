@@ -7,7 +7,7 @@
 
 main {
   display: flex;  
-  background-color: rgb(235, 238, 240);
+  background-color: rgb(235, 238, 240);  
 }
 
 .header {
@@ -56,9 +56,18 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-flow: column wrap;  
+  flex-flow: column wrap; 
   align-content: center;
   align-items: space-between;  
+}
+
+#img-container {
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 200px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
 }
 
 #trybewarts-forms-logo {
@@ -170,3 +179,13 @@ hr {
   font-size: 12px;
 }
 
+/*footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  background-color: rgb(40, 55, 50);
+  color: rgb(252, 254, 255);
+  min-height: 22px;  
+}*/

@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Trebuchet MS, Lucida Sans Unicode,
+    Lucida Grande, Lucida Sans, Arial, sans-serif;
 }
 
 main {
   display: flex;
   background-color: rgb(235, 238, 240);
+  justify-content: space-around;
 }
 
 .header {
@@ -36,6 +38,19 @@ main {
   height: 35px;
   justify-content: space-evenly;
   align-items: stretch;
+}
+
+.inputs-container input {
+  width: 245px;
+  height: 30px;
+  padding: 2px;
+  background-color: rgb(252, 254, 255);
+  border: 2px solid rgb(240, 243, 245);
+  border-radius: 8px;
+}
+
+.radio-head label input , .content-box label input {
+  margin-right: 3px;
 }
 
 #form-login input {
@@ -67,7 +82,7 @@ main {
   min-width: 200px;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #trybewarts-forms-logo {
@@ -87,15 +102,6 @@ main {
   justify-content: space-between;
   align-content: center;
   align-items: baseline;
-}
-
-.inputs-container input {
-  width: 245px;
-  height: 30px;
-  padding: 2px;
-  background-color: rgb(252, 254, 255);
-  border: 2px solid rgb(240, 243, 245);
-  border-radius: 8px;
 }
 
 .inputs-container select {
@@ -134,12 +140,8 @@ hr {
   width: 50%;
 }
 
-.radio-head label, .content-box label {
-  margin: 5px 6px 5px 0px;
-}
-
-.radio-head label input, .content-box label input {
-  margin-right: 3px;
+.radio-head label , .content-box label {
+  margin: 5px 6px;
 }
 
 .satisfaction-rating {
@@ -177,4 +179,10 @@ hr {
   bottom: 16px;
   right: 4px;
   font-size: 12px;
+}
+
+footer {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
 }

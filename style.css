@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-family: Trebuchet MS, Lucida Sans Unicode,
     Lucida Grande, Lucida Sans, Arial, sans-serif;
 }
@@ -10,6 +10,7 @@ main {
   display: flex;
   background-color: rgb(235, 238, 240);
   justify-content: space-around;
+  min-height: 650px;
 }
 
 .header {
@@ -59,6 +60,16 @@ main {
   border-radius: 8px;
 }
 
+.agreement-container button {
+  margin: 10px 0;
+  padding: 2px;
+  width: 100%;
+  background-color: rgb(149, 20, 153);
+  color: rgb(252, 254, 255);
+  border: 1px solid rgb(149, 20, 153);
+  border-radius: 8px;
+}
+
 #form-login button {
   padding: 2px;
   width: 70px;
@@ -104,7 +115,7 @@ main {
 }
 
 .inputs-container select {
-  width: 200px;
+  width: 190px;
   height: 30px;
   padding: 2px;
   background-color: rgb(252, 254, 255);
@@ -165,16 +176,6 @@ hr {
   flex-flow: column nowrap;
 }
 
-.agreement-container button {
-  margin: 10px 0;
-  padding: 2px;
-  width: 100%;
-  background-color: rgb(149, 20, 153);
-  color: rgb(252, 254, 255);
-  border: 1px solid rgb(149, 20, 153);
-  border-radius: 8px;
-}
-
 #textarea {
   resize: none;
 }
@@ -191,7 +192,11 @@ hr {
 }
 
 footer {
-  margin-top: 64px;
   display: flex;
   justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  background-color: rgb(19, 39, 53);
+  color: rgb(235, 238, 240);
+  min-height: 35px;
 }

@@ -21,10 +21,6 @@ function sendForm() {
   if (checkbox.checked === true) {
     submitBtn.disabled = false;
   }
-  /* if (checkbox.checked === false) {
-    alert('nao enviou');
-    event.preventDefault();
-  } else { alert('enviou'); } */
 }
 
 function clearForm(form) {
